@@ -7,8 +7,11 @@ This Quickstart guide takes you through the process of integrating a Steampipe C
 1. In the Steampipe Cloud UI, follow the prompts to:
 
     a. create a new **Workspace**
-    b. create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unigue name (handle) and limiting the number of items returned in any future queries. 
+    
+    b. create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unique name (handle) and limiting the number of items returned in any future queries. 
+    
     c. add the new Connection to your Workspace.
+
 For this Guide, you can skip the prompt to add a "mod".
 
 Now that you have your Worspace defined in Steampipe Cloud, let's go to Deepnote and configure an integration with your Hackernews data in your Steampipe PostgreSQL database,
@@ -16,10 +19,11 @@ Now that you have your Worspace defined in Steampipe Cloud, let's go to Deepnote
 ## Create an account on Deepnote (https://deepnote.com/sign-up)
 
 1. In Deepnote, click **Integrations** in the left navigation pane.
-  a. Select PostgreSQL from the (since your free Steampipe workspace uses Postgres).
+
+   a. Select PostgreSQL from the (since your free Steampipe workspace uses Postgres).
   The Configure PostgreSQL integration modal box displays.
-  b. Enter the required connection information, using the connection information from the Steampipe Cloud workspace (on the Connect tab).
-  c. Click **Create** to save your connection information and close the modal box.
+   b. Enter the required connection information, using the connection information from the Steampipe Cloud workspace (on the Connect tab).
+   c. Click **Create** to save your connection information and close the modal box.
   
 2. In Deepnote, create a new **Workspace**:
   a. In the left navigation area, click on the **plus sign** (+) beside **Workspace**.
