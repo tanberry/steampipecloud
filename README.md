@@ -17,7 +17,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 
 ## Create an account on Deepnote
 
-1. Vavigte to https://deepnote.com/sign-up and sign up for an account.
+1. Navigte to https://deepnote.com/sign-up and sign up for an account.
 2. In Deepnote, click **Integrations** in the left navigation pane.
 
     a. Select PostgreSQL from the displayed integrations (because your free Steampipe workspace uses Postgres).
@@ -40,7 +40,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
   
     d. Click **How to Use** on the integration.
   
-    e. Click the name of your Steampipe integration.
+    e. Select your Steampipe integration.
   
    A new pgsql query block displays on the main area of your workspace. Here, you can enter queries against the Hackernews data that is stored in your Steampipe Cloud database. Example: `select * from hackernewstb.hackernews_top limit 10;`
 
@@ -57,7 +57,7 @@ Congratulations, you have successfuly integrated your Steampipe Cloud database w
 +
 FEEDBACK on fresh eyes observations:
 
-1. I selected HackerNews as my plugin, renamed it hackernewstb, but then got an error that the plugin was not supported. Should I not have changed the name? [I now know that I cannot rename it, so why am I allowed to?] Other problem was there was no easy way to return quickly to the list of Plugins… I got dumped onto a page that showed my account (defaulted to the disturbingly empty Dashboards tab), but then had to drill down (using the Connect tab) to figure out how to go back and choose another plugin. My brain was looking for the word plug-in.. I had to deduce that “Connect” was the right place to go.
+1. I selected HackerNews as my plugin, renamed it hackernewstb, but then got an error that the plugin was not supported. Should I not have changed the name? Other problem was there was no easy way to return quickly to the list of Plugins… I got dumped onto a page that showed my account (defaulted to the disturbingly empty Dashboards tab), but then had to drill down (using the Connect tab) to figure out how to go back and choose another plugin. My brain was looking for the word plug-in.. I had to deduce that “Connect” was the right place to go.
 2. Where you enter your GitHub personal access token, it would help to specify that it is in the GitHub UI where you set the permissions scope.
 3. There’s a sudden disconnect when I am thinking I am using Steampipe on the cloud, but I have to have a dashboard, and in order to build a dashboard I have to install Steampipe. So much for being all on the cloud. Yeah… the whole dashboard thing on Steampipe Cloud is confusing and disjointed… I am hung up on needing a dashboard, have to either pick one from a long list of seemingly unrelated dashboards, or build my own… I just want to get going,.,, gimme a n OoO dashboard please. I tried using the Terraform GCP compliance one, went down deep rabbit hole of figuring out where my TF state file resided... was ugly so I backed out and gave up on Dashboard. Now that  got through the whole exercise, I realize I relaly do not need a dashboard at all, since DeepNote will serve as my dashboard. The Steampipe cloud UI shold perhaps be more explanatory about dashboard being optional. 
-In Deepnote, on the Configure PostgreSQL integration modal box, you have to fill out the required connection info in separate boxes (port, db name, etc)... it would be really nice if Deepnote let you just enter a connection string, hello
+In Deepnote, on the Configure PostgreSQL integration modal box, you have to fill out the required connection info in separate boxes (port, db name, etc)... it would be really nice if Deepnote let you just enter a connection string.
