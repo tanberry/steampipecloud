@@ -5,9 +5,10 @@ This Quickstart guide takes you through the process of integrating a Steampipe C
 ## Sign up for a Steampipe Cloud account (https://cloud.steampipe.io/)
 
 1. In the Steampipe Cloud UI, follow the prompts to:
-  a. create a new **Workspace**
-  b. create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unigue name (handle) and limiting the number of items returned in any future queries. 
-  c. add the new Connection to your Workspace.
+
+    a. create a new **Workspace**
+    b. create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unigue name (handle) and limiting the number of items returned in any future queries. 
+    c. add the new Connection to your Workspace.
 For this Guide, you can skip the prompt to add a "mod".
 
 Now that you have your Worspace defined in Steampipe Cloud, let's go to Deepnote and configure an integration with your Hackernews data in your Steampipe PostgreSQL database,
