@@ -20,11 +20,11 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 1. Vavigte to https://deepnote.com/sign-up and sign up for an account.
 2. In Deepnote, click **Integrations** in the left navigation pane.
 
-    a. Select PostgreSQL from the (since your free Steampipe workspace uses Postgres).
+    a. Select PostgreSQL from the displayed integrations (because your free Steampipe workspace uses Postgres).
    
    The Configure PostgreSQL integration modal box displays.
    
-    b. Enter the required connection information, using the connection information from the Steampipe Cloud workspace (on the Connect tab).
+    b. Enter the required connection information, using the connection information from the Steampipe Cloud workspace (on the **Connect** tab).
     
     c. Click **Create** to save your connection information and close the modal box.
   
@@ -34,11 +34,11 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
   
     b. In the new workspace (by default called *Untitled*) go to the right navigation area and click on the **Integrations** tab.
   
-   The existing integrations display in left navigation pane.
+   The existing integrations display in right navigation pane.
   
     c. Click **Connect** on the Hackernews integration that you previously defined in Steampipe.
   
-    d. Click **How to Use** on the Integration.
+    d. Click **How to Use** on the integration.
   
     e. Click the name of your Steampipe integration.
   
