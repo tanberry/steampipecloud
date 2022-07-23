@@ -6,11 +6,13 @@ This Quickstart guide takes you through the process of integrating a Steampipe C
 
 1. In the Steampipe Cloud UI, follow the prompts to:
 
-    a. create a new **Workspace**
+    a. Create a new Workspace.
     
-    b. create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unique name (handle) and limiting the number of items returned in any future queries. 
+    b. Create a Connection by selecting a plug-in. 
+
+For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unique name (*handle*) and limiting the number of items returned in any future queries. 
     
-    c. add the new Connection to your Workspace.
+    c. Add the new Connection to your Workspace.
 
 For this Guide, you can skip the prompt to add a "mod".
 
