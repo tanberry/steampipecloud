@@ -1,32 +1,37 @@
-# steampipecloud
-Configure an intgeration of steampipe and deepnote 
+# Configure an intgeration of steampipe and deepnote 
 
+This Quickstart guide takes you through the process in integrating a Steampipe Cloud database instance with Deepnote, a science-centric, online notebook that provides a collaborative data dashboard.
 
-1. Sign up for a Steampipe Cloud account (https://cloud.steampipe.io/)
-  a. In the Steampipe Cloud UI, follow the prompts to:
-  * create a new **Workspace**
-  * create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unigue name (handle) and limiting the number of items returned in any future queries. 
-  * add the new Connection to your Workspace.
+## Sign up for a Steampipe Cloud account (https://cloud.steampipe.io/)
+
+1. In the Steampipe Cloud UI, follow the prompts to:
+  a. create a new **Workspace**
+  b. create a **Connection** by selecting a plug-in. For this Quickstart, select Hackernews. Optionally, you can further define your connection to Hackernews by giving it a unigue name (handle) and limiting the number of items returned in any future queries. 
+  c. add the new Connection to your Workspace.
 For this Guide, you can skip the prompt to add a "mod".
 
 Now that you have your Worspace defined in Steampipe Cloud, let's go to Deepnote and configure an integration with your Hackernews data in your Steampipe PostgreSQL database,
 
-2. Create an account on Deepnote (https://deepnote.com/sign-up)
-  a. In Deepnote, click Integrations in the left navigation pane.
-  * Select PostgreSQL from the (since your free Steampipe workspace uses Postgres).
+## Create an account on Deepnote (https://deepnote.com/sign-up)
+
+1. In Deepnote, click **Integrations** in the left navigation pane.
+  a. Select PostgreSQL from the (since your free Steampipe workspace uses Postgres).
   The Configure PostgreSQL integration modal box displays.
-  * Enter the required connection information, using the connection information from the Steampipe Cloud workspace (on the Connect tab).
-  * Click **Create** to save your connectioninformation and close the modal box.
+  b. Enter the required connection information, using the connection information from the Steampipe Cloud workspace (on the Connect tab).
+  c. Click **Create** to save your connectioninformation and close the modal box.
   
-  3. In Deepnote, create a new Workspace:
-  a. In the left navigation area, click on the plus sign (+) beside **Workspace**.
-  b. In the new workspace (by default called *Untitled* go to the right navigation area and click on the **Inegrations** tab.
+2. In Deepnote, create a new **Workspace**:
+  a. In the left navigation area, click on the **plus sign** (+) beside **Workspace**.
+  b. In the new workspace (by default called *Untitled*) go to the right navigation area and click on the **Integrations** tab.
   The existing integrations display in left navigatin pane.
   c. Select **Connect** on the Hackernews integration that you previously defined in Steampipe.
   d. Click **How to Use** on the Integration.
   e. Click the name of your Steampipe integration.
-  A new pgsql query block displays on the main area of your workspace. Here, you can enter queries against the Hackernews data that is stored in your Steampipe Cloud database.
-Example: `select * from hackernewstb.hackernews_top limit 10;`
+  A new pgsql query block displays on the main area of your workspace. Here, you can enter queries against the Hackernews data that is stored in your Steampipe Cloud database. Example: `select * from hackernewstb.hackernews_top limit 10;`
+The returned data items display beneath the query.
+
+Congratualtions, you have successfuly integrated your Steampipe Could database with Deepnote!
+
 
 
 FEEDBACK on fresh eyes observations:
