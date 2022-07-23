@@ -49,7 +49,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 Congratulations, you have successfuly integrated your Steampipe Cloud database with Deepnote!
 
 
-
+______________-
 FEEDBACK on fresh eyes observations:
 
 1. I selected HackerNews as my plugin, renamed it hackernewstb, but then got an error that the plugin was not supported. Should I not have changed the name? [I now know that I cannot rename it, so why am I allowed to?] Other problem was there was no easy way to return quickly to the list of Plugins… I got dumped onto a page that showed my account (defaulted to the disturbingly empty Dashboards tab), but then had to drill down (using the Connect tab) to figure out how to go back and choose another plugin. My brain was looking for the word plug-in.. I had to deduce that “Connect” was the right place to go.
