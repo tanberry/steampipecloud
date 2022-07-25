@@ -34,7 +34,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
     
     <img src="/Deepnote_add_workspace.png" width="200">
   
-    b. In the new workspace (by default called *Untitled*) go to the right navigation area and click on the **Integrations** tab.
+    b. In the new workspace (by default called *Untitled* but you can use the ellipses menu to change the name) go to the right navigation area and click on the **Integrations** tab.
     
     <img src="/Deepnote_integration.png" width="400">
   
