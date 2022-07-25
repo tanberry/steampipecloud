@@ -32,7 +32,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 
     a. In the left navigation area, click on the **plus sign** (+) beside **Workspace**. 
     
-    ![Deepnote](/Deepnote_add_workspace.png)
+    <img src="/Deepnote_add_workspace.png" width="200">
   
     b. In the new workspace (by default called *Untitled*) go to the right navigation area and click on the **Integrations** tab.
   
