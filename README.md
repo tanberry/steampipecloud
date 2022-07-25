@@ -20,6 +20,8 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 1. Navigate to https://deepnote.com/sign-up and sign up for an account.
 2. In Deepnote, click **Integrations** in the left navigation pane.
 
+<img src="/DeepNote_first_int.png" width="400">
+
     a. Select PostgreSQL from the displayed integrations (because your free Steampipe workspace uses a PostgreSQL database).
    
    The Configure PostgreSQL integration modal box displays.
@@ -54,7 +56,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
    
     f. In the query block, you can enter queries against the Hackernews data that is stored in your Steampipe Cloud database. Example: `select * from hackernewstb.hackernews_top limit 10;`
 
-    g. Click the Run icon to the left of the query block. 
+    g. Click the Run icon to the right of the query block. 
     
    <img src="/DeepNote_recording.gif" width="400">
   
