@@ -4,7 +4,7 @@ This Quickstart guide takes you through the process of integrating a Steampipe C
 
 ## Sign up for a Steampipe Cloud account 
 
-1. Navigate to https://cloud.steampipe.io/ and create an account.
+1. Navigate to [https://cloud.steampipe.io/](https://cloud.steampipe.io/signup) and create an account.
 2. In the Steampipe Cloud UI, follow the prompts to:
 
     a. Create a new Workspace.
