@@ -15,7 +15,7 @@ This Quickstart guide takes you through the process of integrating a Steampipe C
 
 Now that you have your Workspace and a connection defined in Steampipe Cloud, let's go to Deepnote and configure an integration with your Hackernews data in your Steampipe PostgreSQL database.
 
-## Create an account on Deepnote
+## Create an account on Deepnote and integrate with Steampipe
 
 1. Navigte to https://deepnote.com/sign-up and sign up for an account.
 2. In Deepnote, click **Integrations** in the left navigation pane.
