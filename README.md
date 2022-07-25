@@ -31,6 +31,8 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 2. In Deepnote, create a new **Workspace**:
 
     a. In the left navigation area, click on the **plus sign** (+) beside **Workspace**. 
+    
+    ![Deepnote](/Deepnote_add_workspace.png)
   
     b. In the new workspace (by default called *Untitled*) go to the right navigation area and click on the **Integrations** tab.
   
