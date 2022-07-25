@@ -46,7 +46,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
     
     The How to connect to POstgreSQL modal box displays.
     
-    <img src="/DeepNote_modal_select_int.png" width="200">
+    <img src="/DeepNote_modal_select_int.png" width="400">
   
     e. Click on the name of your Steampipe integration.
   
@@ -56,7 +56,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 
     g. Click the Run icon to the left of the query block. 
     
-   <img src="/DeepNote_recording.mov" width="200">
+   <img src="/DeepNote_recording.gif" width="400">
   
   The returned data items display beneath the query.
 
