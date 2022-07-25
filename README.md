@@ -44,7 +44,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
   
     d. Click **How to Use** on the integration.
     
-    The How to connect to POstgreSQL modal box displays.
+    The **How to connect to PostgreSQL** modal box displays.
     
     <img src="/DeepNote_modal_select_int.png" width="400">
   
