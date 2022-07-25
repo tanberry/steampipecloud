@@ -20,7 +20,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 1. Navigate to https://deepnote.com/sign-up and sign up for an account.
 2. In Deepnote, click **Integrations** in the left navigation pane.
 
-<img src="/DeepNote_first_int.png" width="400">
+    <img src="/DeepNote_first_int.png" width="400">
 
     a. Select PostgreSQL from the displayed integrations (because your free Steampipe workspace uses a PostgreSQL database).
    
