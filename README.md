@@ -2,7 +2,7 @@
 
 This Quickstart guide takes you through the process of integrating a Steampipe Cloud database instance with Deepnote, a science-centric, online notebook that provides a collaborative data dashboard.
 
-## Sign up for a Steampipe Cloud account 
+## Sign up for a Steampipe Cloud account to create a workspace and an integration
 
 1. Navigate to [https://cloud.steampipe.io/](https://cloud.steampipe.io/signup) and create an account.
 2. In the Steampipe Cloud UI, follow the prompts to:
