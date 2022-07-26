@@ -41,8 +41,12 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
    The existing integrations display on the Integrations tab, in right navigation pane.
   
     c. Click **Connect** on the Hackernews integration that you previously defined in Steampipe.
+    
+    <img src="/DeepNote_connect.png" width="400">
   
     d. Click **How to Use** on the integration.
+    
+    <img src="/DeepNote_how_to_use.png" width="400">
     
     The **How to connect to PostgreSQL** modal box displays.
     
