@@ -32,7 +32,7 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
 
     a. In the left navigation area, click on the **plus sign** (+) beside **Workspace**. 
     
-    <img src="/Deepnote_add_workspace.png" width="200">
+    <img src="/Deepnote_add_workspace.png" width="400">
   
     b. In the new workspace (by default called *Untitled* but you can use the ellipses menu to change the name) go to the right navigation area and click on the **Integrations** tab.
     
@@ -42,11 +42,11 @@ Now that you have your Workspace and a connection defined in Steampipe Cloud, le
   
     c. Click **Connect** on the Hackernews integration that you previously defined in Steampipe.
     
-    <img src="/DeepNote_connect.png" width="400">
+    <img src="/DeepNote_connect.png" width="300">
   
     d. Click **How to Use** on the integration.
     
-    <img src="/DeepNote_how_to_use.png" width="400">
+    <img src="/DeepNote_how_to_use.png" width="300">
     
     The **How to connect to PostgreSQL** modal box displays.
     
