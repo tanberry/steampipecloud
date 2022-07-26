@@ -1,4 +1,4 @@
-# QuickStart: Configure an integeration of Steampipe Cloud and Deepnote 
+# QuickStart: Configure an integration of Steampipe Cloud and Deepnote 
 
 This Quickstart guide takes you through the process of integrating a Steampipe Cloud database instance with Deepnote, a science-centric, online notebook that provides a collaborative data dashboard.
 
